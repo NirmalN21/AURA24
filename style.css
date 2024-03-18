@@ -202,7 +202,7 @@ body {
 .slide-track{
   display: flex;
   width: calc(250px * 18);
-  animation: scroll 25s ease infinite;
+  animation: scroll 25s ease-in-out infinite;
 }
 .slide-track img{
   border-top: 7px solid rgb(50, 205, 200);
