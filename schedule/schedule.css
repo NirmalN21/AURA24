@@ -145,12 +145,23 @@ body {
   background: linear-gradient(#141c1d83 37.86%, rgba(0, 0, 0, 0) 100%);
 }
 
+@media (max-width: 1400px) {
+  .solutions-logo {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 5rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .hamburger-button {
     display: block;
   }
   .main-navbar {
     display: none;
+  }
+  .solutions-logo {
+    height: 4rem;
   }
 }
 

@@ -187,8 +187,18 @@ body {
 }
 
 /* ---------- media quaries--------- */
-
+@media (max-width: 1400px) {
+  .solutions-logo {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 5rem;
+  }
+}
+  
 @media (max-width: 1000px) {
+  .solutions-logo {
+    height: 4rem;
+  }
   .flex-elements {
     display: flex;
     align-items: center;
