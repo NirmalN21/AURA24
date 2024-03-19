@@ -30,10 +30,10 @@ const events = [
   [["MONOACT /<br> DUET ACT","./images_drama/2.jpg"], ["CONVENTIONAL<br>DRAMA","./images_drama/3.jpg"], ["NUKKAD NATAK","./images_drama/1.jpg"]],
 
   // gaming category id=5
-  [["CREATIVE WRITING","./images_literary/3.JPG"], ["DEBATE","./images_literary/1.JPG"], ["CAPTION WRITING","./images_literary/2.JPG"], ["QUIZ-GENERAL",,"./images_literary/4.JPG"], ["QUIZ-ANIME","./images_literary/5.JPG"], ["MEME","./images_literary/6.JPG"], ["JAM","./images_literary/5.JPG"], ["OPEN MIC","./images_literary/6.JPG"], ["SHARK TANK","./images_literary/4.JPG"]],
+  [["CREATIVE WRITING","./images_literary/3.jpg"], ["DEBATE","./images_literary/1.jpg"], ["CAPTION WRITING","./images_literary/2.jpg"], ["QUIZ-GENERAL","./images_literary/4.jpg"], ["QUIZ-ANIME","./images_literary/5.jpg"], ["MEME","./images_literary/6.jpg"], ["JAM","./images_literary/5.jpg"], ["OPEN MIC","./images_literary/6.jpg"], ["SHARK TANK","./images_literary/4.jpg"]],
 ];
 
-const category_img = [
+const category_img = [  
   // coding category id=0
   "./images/arts.svg",
 
