@@ -121,11 +121,12 @@ body {
   transition: all 0.1s ease-in-out;
   overflow: hidden;
   object-fit: cover;
-  border-radius: 0rem 3rem 0rem 0rem;
+  border-radius: 0rem calc(3rem - 5px) 0rem 0rem;
 }
 
 .coading_event img{
   width: 100%;
+  object-fit: cover;
 }
 
 .coading_event_text{
@@ -135,6 +136,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .coading_event_button{
@@ -148,12 +150,12 @@ body {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   font-family: sans-serif;
-  border-radius: 0rem 0rem 0rem 3rem;
+  border-radius: 0rem 0rem 0rem calc(3rem - 5px);
   background: linear-gradient(to right, #52D3D8, #38419D);
 }
 
 .coading_event_name{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 

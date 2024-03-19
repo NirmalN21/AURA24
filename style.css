@@ -194,15 +194,15 @@ body {
   overflow: hidden;
   margin: auto;
   position: relative;
-  width: 95%;
+  width: fit-content;
   display: grid;
   place-items: center;
   font-size: 1rem;
 }
 .slide-track{
   display: flex;
-  width: calc(250px * 18);
-  animation: scroll 25s ease-in-out infinite;
+  width: calc(250px * 29);
+  animation: scroll 29s linear infinite;
 }
 .slide-track img{
   border-top: 7px solid rgb(50, 205, 200);
@@ -219,7 +219,7 @@ body {
     transform: translateX(0);
   }
   100%{
-    transform: translateX(calc(-250px * 9));
+    transform: translateX(calc(-250px * 21));
   }
 }
 
