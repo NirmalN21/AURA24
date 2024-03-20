@@ -202,7 +202,7 @@ body {
 .slide-track{
   display: flex;
   width: calc(250px * 29);
-  animation: scroll 40s linear infinite;
+  animation: scroll 59s linear infinite;
   overflow: hidden;
 }
 .slide-track img{
