@@ -161,6 +161,11 @@ body {
 
 /* ---navbar end--- */
 
+.scroll-k-upar{
+  margin-top:-2rem !important;
+  margin-bottom: 2rem !important;
+}
+
 .header {
   /* height: max(100vh, 90rem); */
   padding-top: 0rem;
@@ -193,6 +198,7 @@ body {
   height: auto;
   overflow: hidden;
   margin: auto;
+  margin-top: 5rem;
   position: relative;
   width: 95%;
   display: grid;
@@ -206,9 +212,9 @@ body {
   overflow: hidden;
 }
 .slide-track img{
-  border-top: 7px solid rgb(50, 205, 200);
-  border-bottom: 7px solid rgb(50, 205, 200);
-  border-right: 7px solid rgb(50, 205, 200);
+  border-top: 7px solid rgba(30, 223, 217, 0.1);
+  border-bottom: 7px solid rgba(50, 205, 200,0.1);
+  border-right: 7px solid rgba(50, 205, 200,0.1);
 }
 
 .slide-track:hover{
@@ -945,5 +951,9 @@ body {
 	border-right: 6px solid transparent;
 	
 	border-top: 10px solid #f2f2f2; 
+  }
+  .scroll-k-upar{
+    padding: 1rem;
+    font-size: 1.8rem;
   }
 }
